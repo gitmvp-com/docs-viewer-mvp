@@ -1,0 +1,14 @@
+# EditorConfig settings (https://EditorConfig.org)
+
+root = true
+
+[*.{md,yml,ts,tsx,css,json}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+end_of_line = lf
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
